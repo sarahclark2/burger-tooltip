@@ -1,0 +1,49 @@
+body{
+background: #FFFFFF;
+}
+#burger{
+  color: #000000;
+}
+#offscreen_nav ul{
+  list-style: none;
+  font-size: 2em;
+  padding: 5%;
+}
+#offscreen_nav{
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  overflow: hidden;
+}
+#nav_close{
+  float: right;
+}
+#more-info{
+  color: red;
+}
+#tool-tip{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px gray;
+  position: absolute;
+  opacity: 0;
+}
+#arrow{
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid red;
+  opacity: 0;
+  position: absolute;
+}
+#more-info:hover{
+  cursor: pointer;
+}
